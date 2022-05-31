@@ -4,8 +4,155 @@
              
              x:Class="AppNetflix.Telas.TelaPerfis">
     <ContentPage.Content>
-        <StackLayout>
-            
+        <StackLayout BackgroundColor="Black">
+            <Grid BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="13*"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0">
+                    <Grid Margin="0,22,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="6*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Image Source="netflixLogo" Opacity=".9" WidthRequest="105" VerticalOptions="Center" Grid.Column="0" Margin="75,0,0,0"/>
+                        <Image Source="iconeEditar" Opacity=".8" WidthRequest="21" VerticalOptions="Center" Grid.Column="1" Margin="0,0,0,0"/>
+                    </Grid>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="Black" VerticalOptions="FillAndExpand" Padding="60" Grid.Row="1" Margin="0,30,0,0">
+                    <Label Text="Quem está assistindo?" Style="{StaticResource TituloTelaPerfil}"/>
+
+                    <Grid VerticalOptions="Center" BackgroundColor="Black" ColumnSpacing="40" RowSpacing="22" Padding="20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Column="0" Grid.Row="0" RowSpacing="14">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Frame Style="{StaticResource FramePerfil}">
+                                <Image Source="perfil1.png" Grid.Row="0"/>
+                            </Frame>
+
+                            <Label Text="Perfil 01" Style="{StaticResource NomePerfil}" Grid.Row="1"/>
+                        </Grid>
+
+
+                        <Grid Grid.Column="0" Grid.Row="1" RowSpacing="14">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Frame Style="{StaticResource FramePerfil}">
+                                <Image Source="perfil3.png" Grid.Row="0"/>
+                            </Frame>
+
+                            <Label Text="Perfil 03" Style="{StaticResource NomePerfil}" Grid.Row="1"/>
+                        </Grid>
+
+                        <Grid Grid.Column="0" Grid.Row="2" RowSpacing="14">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Frame Style="{StaticResource FramePerfil}">
+                                <Image Source="perfil5.png" Grid.Row="0"/>
+                            </Frame>
+
+                            <Label Text="Perfil 05" Style="{StaticResource NomePerfil}" Grid.Row="1"/>
+                        </Grid>
+
+
+
+
+
+
+
+                        <Grid Grid.Column="1" Grid.Row="0" RowSpacing="14">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Frame Style="{StaticResource FramePerfil}">
+                                <Image Source="perfil2.png" Grid.Row="0" />
+                            </Frame>
+
+                            <Label Text="Perfil 02" Style="{StaticResource NomePerfil}" Grid.Row="1"/>
+                        </Grid>
+
+
+                        <Grid Grid.Column="1" Grid.Row="1" RowSpacing="14">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Frame Style="{StaticResource FramePerfil}">
+                                <Image Source="perfil4.png" Grid.Row="0"/>
+                            </Frame>
+
+                            <Label Text="Perfil 04" Style="{StaticResource NomePerfil}" Grid.Row="1"/>
+                        </Grid>
+
+                        <Grid Grid.Column="1" Grid.Row="2" RowSpacing="14">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Frame Style="{StaticResource FramePerfil}">
+                                <Image Source="perfil6.png" Grid.Row="0"/>
+                            </Frame>
+
+                            <Label Text="Perfil 06" Style="{StaticResource NomePerfil}" Grid.Row="1"/>
+                        </Grid>
+
+
+                    </Grid>
+                </StackLayout>
+
+
+            </Grid>
         </StackLayout>
             
             
